@@ -66,7 +66,7 @@ Then create the environment, activate it, and install the dependencies:
 ```bash
 conda create -n eomt python==3.13.2
 conda activate eomt
-python3 -m pip install -r requirements.txt
+python3 -m uv pip install -r requirements.txt
 ```
 
 [Weights & Biases](https://wandb.ai/) (wandb) is used for experiment logging and visualization. To enable wandb, log in to your account:

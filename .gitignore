@@ -182,4 +182,4 @@ cython_debug/
 
 # ignore:
 data
-*.sh
+*.shs
